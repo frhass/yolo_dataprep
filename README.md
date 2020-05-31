@@ -1,4 +1,4 @@
-<h3>Tyler.py</h3>
+<h3>data2yolo.py</h3>
 Preparing geospatial data for training a yolo object detection algortihm. 
 Taking a raster tif file and ashapefile with training and converting these to image chips with corosponding labelfiles in darknet format.
 
@@ -12,7 +12,7 @@ python data2yolo.py "C:\path\to\tif\input_file.tif" "C:\path\to\object_shapefile
 In the output folder, images and labels are put into seperate folders. 
 
 
-<h3>Tyler.py</h3>
+<h3>tyler.py</h3>
 Takes input tiff file and tiles in to image slices with specified pixel size. <br />
 Specify x & y tile sizes at line 17 and 18 <br />
 The output format is ".png", change this at line 31
