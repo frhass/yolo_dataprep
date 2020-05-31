@@ -9,3 +9,9 @@ Example:  <br />
 python data2yolo.py "C:\path\to\tif\input_file.tif" "C:\path\to\object_shapefile\input_file.shp" "C:\path\to\output\folder"
 
 In the output folder, images and labels are put into seperate folders. 
+
+
+<h3>Tyler.py</h3>
+Takes input tiff file and tiles in to image slices with specified pixel size. <br />
+Specify x & y tile sizes at line 17 and 18 <br />
+The output format is ".png", change this at line 31
